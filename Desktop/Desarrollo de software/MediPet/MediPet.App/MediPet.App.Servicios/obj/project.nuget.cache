@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "bUTHBDtGpagpKb9iDoDydKRsYXs8JF8ITsbiZ/aDZnfJ4uqbhbpCtYWXreAz0IS4jblg67vTax7hE5y4v6w4gw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lokadmin\\Desktop\\Desarrollo de software\\MediPet\\MediPet.App\\MediPet.App.Servicios\\MediPet.App.Servicios.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lokadmin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\lokadmin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\lokadmin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\lokadmin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\lokadmin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\lokadmin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

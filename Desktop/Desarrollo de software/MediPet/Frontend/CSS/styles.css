@@ -1,0 +1,152 @@
+/*Tenemos nuestro tipo de letras roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100&display=swap');
+@import 'mediaqueries.css';
+/*Creamos stylos por defecto*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*Colocamos nuestra imágen de fondo*/
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/sl_100420_36140_27.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+}
+
+.navbar{
+    grid-template-columns: repeat(9, 1fr);
+    padding: 30px;
+}
+
+.navbar .brand{
+    color: #fdf7f7;
+    margin-top: 5px;
+}
+
+/*distribuimos horizontalmente el menu*/
+.navbar .menu{
+    grid-column: 6/9;
+    display:flex;
+    margin-top: 15px;
+}
+
+/*Desaparece los punticos de los items de separación*/
+.menu li{
+    list-style: none;
+}
+
+/*Ingresamos a nuestros enlaces directamente */
+.menu li a{
+    text-decoration: none;/*Desaparece la línea de por debajo*/
+    margin-right: 3em;/*Separación de los menú*/
+    font-size: 25px;/*Incrementa el tamaño de la letra*/
+    color: rgb(247, 243, 243); /*Color de la letra*/
+    font-weight: 200;/*resalta el texto*/
+    padding: 10px 20px;
+    /*background-color: #ddd*/
+}
+
+.menu li a:hover{/*Cuando coloquemos el puntero encima cambia de color.*/
+    /*background-color: #FFBF00;*/
+    transition: all .10s;/*Colocamos un transition de 5 segundos.*/
+    color: #000;/*Color de la letra*/
+}
+
+/*Con está le dicimos que desaparezca las 3 liniecitas y aparezca*/
+.menu-bar{
+    display: none;
+}
+
+/*MAIN SECTION*/
+
+.main{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: 70vh;
+    height: 70vh;
+}
+
+.content-info{/*sube o baja h1, h2, button */
+    margin-top: 5em;
+    color: #fff;
+}
+
+button{
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0px 3px 14px 8px rgba(10, 10, 10, 0.78);
+}
+button:hover{
+    box-shadow: none;
+}
+.btn-toBuy, .read-more{
+    background-color: #ca4173;
+    padding: 8px 40px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    border: none;
+}
+.read-more{
+    background: none;
+    border: 1px solid #fff;
+    margin: 20px;
+}
+
+.main img{
+    margin: 0em;
+    float:right;
+    margin-top: -22em;
+}
+
+/* Style the navigation menu */
+.navbar {
+    overflow: hidden;
+    /*background-color: #FFBF00;*/
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  /*.navbar #menu {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .navbar a.menu-bar {
+    /*background: #FFBF00;*/
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .navbar a:hover {
+    /*background-color: #FFBF00;*/
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    /*background-color: #ddd;*/
+    color: white;
+  }

@@ -1,0 +1,34 @@
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="#home" class="active">MediPet</a>
+                <!-- Navigation links (hidden by default) -->
+                    <div id="myLinks">
+                        <a href="#Inicio">News</a>
+                        <a href="#Servicios">Contact</a>
+                        <a href="#Noticias">About</a>
+                        <a href="#Contacto">About</a>
+                    </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+            </div>
+
+
+
+            <nav class="navbar">
+                <div class="brand"><!--aquí esta el logo-->
+                    <h2>MediPet</h2>
+                </div>
+                <!--creamos el menú-->
+                <ul class="menu" id="menu"><!--lo ubicamos con js-->
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul><!--Actuatilizamos icónos **línea 20 link...fontawesome-->
+                <!--Cuando le demos clic a este icóno se va ha desplegar.-->
+                <div class="menu-bar">
+                    <i class="fas fa-bars" id="menu-bar"></i>
+                </div>
+            </nav>
